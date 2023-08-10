@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\blogApi\\blogApi.csproj": {}
+    "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\BlogProject\\blogApi\\blogApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\blogApi\\blogApi.csproj": {
+    "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\BlogProject\\blogApi\\blogApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\blogApi\\blogApi.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\BlogProject\\blogApi\\blogApi.csproj",
         "projectName": "blogApi",
-        "projectPath": "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\blogApi\\blogApi.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\BlogProject\\blogApi\\blogApi.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\blogApi\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\BlogProject\\blogApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

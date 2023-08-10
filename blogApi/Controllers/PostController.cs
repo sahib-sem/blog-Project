@@ -26,9 +26,9 @@ public class PostController:ControllerBase{
     }
 
     [HttpGet("{id}")]
-    public async Task<IActionResult> GetPostById(int id)
+    public IActionResult GetPostById(int id)
     {
-        var post = await _postService.GetPostByIdAsync(id);
+        var post = _postService.GetPostByIdAsync(id);
         if (post == null)
         {
             return NotFound();

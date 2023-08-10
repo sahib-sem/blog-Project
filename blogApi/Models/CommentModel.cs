@@ -6,4 +6,5 @@ public class CommentModel
 
     public int PostId { get; set; }
 
+
 }

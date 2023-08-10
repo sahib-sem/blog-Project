@@ -14,12 +14,12 @@ builder.Services.AddSwaggerGen();
                 options =>
                 options.UseNpgsql(builder.Configuration.GetConnectionString("DatabaseConnection")));
 
-builder.Services
-    .AddControllers()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve;
-    });
+// builder.Services
+//     .AddControllers()
+//     .AddJsonOptions(options =>
+//     {
+//         options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+//     });
 
 var app = builder.Build();
 

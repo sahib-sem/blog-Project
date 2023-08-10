@@ -39,12 +39,12 @@ namespace blogApi.Services;
 
         public async Task<List<Post>> GetAllPostsAsync()
         {
-            return await _context.Posts.ToListAsync();
+            return await _context.Posts.AsNoTracking().Include(p => p.Comments).ToListAsync();
         }
 
-        public async Task<Post?> GetPostByIdAsync(int id)
+        public  Post? GetPostByIdAsync(int id)
         {
-            return await _context.Posts.FindAsync(id);
+            return _context.Posts.Include(p => p.Comments).AsNoTracking().SingleOrDefault(p => p.Id == id);
         }
 
         public async Task<Post?> UpdatePostAsync(int id, string title , string content)

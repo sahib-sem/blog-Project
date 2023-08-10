@@ -11,8 +11,8 @@ public class Post :BaseEntity {
 
     [Required]
     [MaxLength(100)]
-    public string Title { get; set; } = null!;
-    public string Content { get; set; } = null!;
+    public string Title { get; set; } = "";
+    public string Content { get; set; } = "";
 
     public virtual ICollection<Comment> Comments{get; set;}
 }

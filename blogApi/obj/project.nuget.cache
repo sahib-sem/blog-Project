@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pkyrC2MnphQuyFBkjwsrRn3nQ4VbHgjkqWycyEPM3/1UumC538WhHNFoRXgP8D6h3JMMGN3nrFj6ziWorI6ZOg==",
+  "dgSpecHash": "3/KMru6B/X2dd0ieC66csn+Z+RxgDSf1vBRpPqDa596CxQFxxGhsXg384ycC9KmwBO5zinnlwL/PFRCUUf8mSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\blogApi\\blogApi.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\tic-tac-toe\\dotnet\\BlogProject\\blogApi\\blogApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
